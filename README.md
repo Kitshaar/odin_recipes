@@ -17,3 +17,7 @@ I stored all the images used in the pages in a separate directory named Images.
 During all of this, i made a total of 10 commits (not counting the commit i will made to modify readme.md).
 
 THE_END.
+
+Date: 17/july/2023
+
+Added basic CSS to the pages as per the assignment requirements of the lesson "The Cascade".
