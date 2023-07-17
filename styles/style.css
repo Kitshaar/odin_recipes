@@ -1,0 +1,28 @@
+.headline {
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+  font-size: 42px;
+}
+
+.margin {
+  margin: 16px;
+}
+
+.list.color {
+  list-style-type: none;
+  text-align: center;
+}
+
+.text.color {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(252, 27, 27);
+}
+
+body {
+  background-image: url("/images/kitchen.jpg");
+  background-color: rgb(235, 133, 133);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
