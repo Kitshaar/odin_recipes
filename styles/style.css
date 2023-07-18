@@ -4,13 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 2px solid red; */
 }
 
 .main-container {
   margin: 20px auto;
   height: inherit;
   max-width: 800px;
+  padding: 10px;
 }
 .background {
   background-color: aqua;
@@ -27,7 +27,8 @@
   font-size: 42px;
 }
 
-.list.color {
+.list.color,
+.ingrediants {
   list-style-type: none;
   text-align: center;
   color: purple;
@@ -44,28 +45,28 @@
   margin: 8px;
 }
 
-/* .mini {
+.img {
+  margin: 10px auto;
+  height: auto;
+  display: block;
+}
+
+.mini {
   font-size: 32px;
 }
-.margin {
-  margin: 16px;
-} */
 
-/* .recipe {
-  background-color: rgb(235, 133, 133);
-} */
-
-/* .img {
-  margin-left: 650px;
-  height: auto;
-} */
-
-/* .paragraph {
+.paragraph,
+.steps {
+  font-family: "Times New Roman", Times, serif;
   font-size: 26px;
   font-weight: 600;
-  color: aquamarine;
-} */
+  color: blueviolet;
+  padding: 16px;
+}
+.steps {
+  margin: 12px;
+}
 
-/* .paragraph.color {
-  color: green;
-} */
+.li {
+  margin: 16px;
+}
