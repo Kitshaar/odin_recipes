@@ -1,5 +1,23 @@
 * {
   font-family: Verdana, "Geneva", Tahoma, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+
+.main-container {
+  margin: 20px auto;
+  height: inherit;
+  max-width: 800px;
+}
+.background {
+  background-color: aqua;
+}
+
+.div-background {
+  background-color: black;
 }
 
 .headline {
@@ -9,48 +27,45 @@
   font-size: 42px;
 }
 
-.mini {
-  font-size: 32px;
-}
-.margin {
-  margin: 16px;
-}
-
 .list.color {
   list-style-type: none;
   text-align: center;
   color: purple;
   font-size: 28px;
   font-weight: bolder;
+  padding: 8px;
 }
 
-.text.color {
+.button-recipe {
   font-size: 20px;
   font-weight: 700;
-  background-color: rgb(252, 27, 27);
+  background-color: rgb(164, 253, 40);
+  padding: 8px;
+  margin: 8px;
 }
 
-.homepage {
-  background-image: url("/images/kitchen.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+/* .mini {
+  font-size: 32px;
 }
+.margin {
+  margin: 16px;
+} */
 
-.recipe {
+/* .recipe {
   background-color: rgb(235, 133, 133);
-}
+} */
 
-.img {
+/* .img {
   margin-left: 650px;
   height: auto;
-}
+} */
 
-.paragraph {
+/* .paragraph {
   font-size: 26px;
   font-weight: 600;
   color: aquamarine;
-}
+} */
 
-.paragraph.color {
+/* .paragraph.color {
   color: green;
-}
+} */
